@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>AptiCalc – The Ultimate Aptitude & Reasoning Calculator</title>
+<meta name="description" content="Fun, colorful aptitude & reasoning calculators for students, with step-by-step solutions." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="bg-shapes" aria-hidden="true">
+    <span class="shape s1"></span>
+    <span class="shape s2"></span>
+    <span class="shape s3"></span>
+    <span class="shape s4"></span>
+    <span class="shape s5"></span>
+    <span class="shape s6"></span>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#/">
+      <span class="brand-logo">🧮</span>
+      <span class="brand-text">Apti<span>Calc</span></span>
+    </a>
+    <nav class="nav">
+      <a href="#/">Home</a>
+      <a href="#/calc/formula-sheet">Formulas</a>
+      <button id="themeToggle" class="theme-toggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <main id="app"></main>
+
+  <footer class="site-footer">
+    <p>Made By Akarsh with 💖 for curious learners • AptiCalc</p>
+  </footer>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
